@@ -33,6 +33,7 @@
 
 .main {
     grid-column: 1/3;
+    width: auto;
 }
 
 .aside {
@@ -51,12 +52,13 @@
     height: 75px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 30px;
 
 }
 
 .sponsor {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 10px;
@@ -76,9 +78,16 @@ li {
     align-items: center;
     justify-content: center;
     list-style: none;
+    padding-left: 30px;
 
 }
-
+img {
+    display: block;
+}
+p {
+    color: #f8731a;
+    padding: 10px;
+}
 @media screen and (min-width: 600px) {
 
 
@@ -125,5 +134,7 @@ li {
     }
     li {
         display: flex;
+        padding-top: 40PX;
+        padding-right: 10px;
     }
 }
