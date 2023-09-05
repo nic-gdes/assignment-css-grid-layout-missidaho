@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    background-color:rgb(255, 255, 255);
+    max-width: 1200px;
+    gap: 1rem;
+    margin: 0 auto;
+    grid-template: auto/ 1fr 2fr 1.5fr;
+}
+.grid-item {
+    background-color: blue;
+    min-height: 150px;
+}
+.logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.menu {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.main {
+    grid-column: 1/3;
+}
+.aside {
+  
+}
+.sponsor, .footer {
+grid-column: 1/4;
+}
